@@ -43,7 +43,7 @@ public class JoinFileFilterPlugin
         public ColumnConfig getBaseColumn();
 
         @Config("counter_column")
-        @ConfigDefault("{name: id, type: long}")
+        @ConfigDefault("{\"name\": \"id\", \"type\": \"long\"}")
         public ColumnConfig getCounterColumn();
 
         @Config("joined_column_prefix")
